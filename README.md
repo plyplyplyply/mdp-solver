@@ -1,6 +1,7 @@
 # mdp-solver
 Markov Decision Process (MDP) solver specifically designed for economic model optimization.
 
+$$
 \begin{split}
 J\left(x_{t}\right)=\sup_{u_{t}}\left\{ R\left(x_{t},u_{t}\right)+\beta\mathbb{E}_{\varepsilon_{t+1}}J\left(x_{t+1}\right)\right\} \\
 \text{s.t. }\left\{ \begin{array}{ll}
@@ -8,6 +9,7 @@ J\left(x_{t}\right)=\sup_{u_{t}}\left\{ R\left(x_{t},u_{t}\right)+\beta\mathbb{E
 H\left(x_{t},u_{t}\right)\leq\mathbf{0}
 \end{array}\right.
 \end{split}
+$$
 
 ## ✨ Features
 
