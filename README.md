@@ -1,5 +1,23 @@
 # mdp-solver
-MDP Solver for Economic Models
+Markov Decision Process (MDP) solver specifically designed for economic model optimization.
+
+\begin{split}
+J\left(x_{t}\right)=\sup_{u_{t}}\left\{ R\left(x_{t},u_{t}\right)+\beta\mathbb{E}_{\varepsilon_{t+1}}J\left(x_{t+1}\right)\right\} \\
+\text{s.t. }\left\{ \begin{array}{ll}
+\}_{t+1}=F\left(x_{t},u_{t},\varepsilon_{t+1}\right)\\
+H\left(x_{t},u_{t}\right)\leq\mathbf{0}
+\end{array}\right.
+\end{split}
+
+## ✨ Features
+
+- 🚀 **GPU Acceleration Supported**: Leverages PyTorch for large-scale parallel computing (allows input functions to be CPU-based)
+- 📊 **Various Economic Models**: LQR, RBC, consumption-saving, job search, and more
+- ⚡ **Built-in Algorithms**: Value iteration and policy iteration
+- 🎯 **Constraint Handling**: Interior-point penalty function method
+- 📈 **Visualization**: Rich charting and analysis tools
+- 🔧 **Easy Extension**: Modular design, easy to add new models
+
 
 Usage Example:
 ----------
