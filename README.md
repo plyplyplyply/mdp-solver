@@ -3,10 +3,10 @@ Markov Decision Process (MDP) solver specifically designed for economic model op
 
 \begin{equation}
 \begin{split}
-J\left(x_{t}\right)=\sup_{u_{t}}\left\{ R\left(x_{t},u_{t}\right)+\beta\mathbb{E}_{\varepsilon_{t+1}} J\left(x_{t+1}\right) \right\} \\
-\text{s.t. }\left\{ \begin{array}{ll}
-x_{t+1} = F\left(x_{t},u_{t},\varepsilon_{t+1}\right)\\
-H\left(x_{t},u_{t}\right)\leq 0
+J (x_{t} )=\sup_{u_{t}} \{ R (x_{t},u_{t} )+\beta E_{ \varepsilon_{t+1}} J (x_{t+1}\right)  \} \\
+\text{s.t. } \{ \begin{array}{ll}
+x_{t+1} = F (x_{t},u_{t},\varepsilon_{t+1} )\\
+H (x_{t},u_{t}\right)\leq 0
 \end{array}\right.
 \end{split}
 \end{equation}
