@@ -17,7 +17,7 @@ Usage Example:
 ----------
 ```python
 # Initialize solver
-solver = MDPSolver(
+solver = MDPSolverCPU(
     dim_x=2, dim_u=2, dim_epsilon=1, n_samples=100,
     transition_func=transition, reward_func=reward,
     constraint_func=constraint
